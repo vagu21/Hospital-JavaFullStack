@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <style>
+    /* CSS for styling */
+.containered{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardd {
+    width: 23%; /* Adjust as needed to fit 4 cards on a row for laptops */
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cardd img {
+    max-width: 60%;
+}
+.cardd:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.info h2 {
+    font-size: 1.2rem;
+}
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .cardd {
+        width: 100%; /* One card per row on mobile */
+    }
+}
+
+  </style>
+</head>
+
+<body>
+
+
+  <nav class="navbar">
+    <div class="logo">
+        <img src="images\logo.png" alt="Logo">
+      </div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+
+<div class="doctorimg">
+  <img src="images\OurDoctors.jpg">
+</div>
+
+  <div class="containered">
+    <div class="cardd">
+        <img src="images/nageswar.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. D Nageshwar Reddy</h2>
+            <p>Director - Hepatology 
+            <p>Centre of Hepatology, Multiorgan Transplants</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/gvrao.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr.G.V.Rao</h2>
+            <p>Chief of Surgical Gastroenterology & Minimally Invasive Surgery - Surgical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/omaraj.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr.B.Soma Raju</h2>
+            <p>Chairman & Chief of Gastroenterology - Medical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/nagaraj.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr.P Nagaraja Rao</h2>
+            <p>Director Inflammatory </p>
+        <p>Bowel Diseases - Medical Bowel Surgery-Surgical Bowel</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="containered">
+    <div class="cardd">
+        <img src="images/sundeep.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. D Nageshwar Reddy</h2>
+            <p>Director - Hepatology 
+            <p>Centre of Hepatology, Multiorgan Transplants</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/rupa.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Rupa Banerjee</h2>
+            <p>Director Inflammatory Bowel Diseases - Medical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/prasad.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr.B.Soma Raju</h2>
+            <p>Chairman & Chief of Gastroenterology - Medical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/narasimhan.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr.P Nagaraja Rao</h2>
+            <p>Director Inflammatory </p>
+        <p>Bowel Diseases - Medical Bowel Surgery-Surgical Bowel</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="containered">
+    <div class="cardd">
+        <img src="images/sukesh.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. C. Sukesh Kumar Reddy</h2>
+            <p>Director - Cardiothoracic Surgery</p> 
+            <p>Cardiothoracic Surgery, Multiorgan</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/kaushik.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Kausik Bhattacharya</h2>
+            <p>Director & HOD Radiation Oncology Institute of Oncology - Radiation Oncology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/sairam.png" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Sai Ram Reddy</h2>
+            <p>Chairman & Chief of Gastroenterology - Medical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/anuj.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Anuj Kapadiya</h2>
+            <p>Director - Cardiac Cath Lab</p>
+           <p>Sr. Consultant - Interventional Cardiology </p> 
+        </div>
+    </div>
+</div>
+
+
+
+<div class="containered">
+    <div class="cardd">
+        <img src="images/ashok.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Ashok Kumar Dash</h2>
+            <p>Chief & HOD (Internal Medicine) - Internal Medicine</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/vamshi.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Vamshi Krishna M</h2>
+            <p>Director & HOD - Medical Oncology - Medical Oncology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/anjeev.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Sanjeev M Patil</h2>
+            <p>Associate Director - Colorectal Surgery - Surgical Gastroenterology</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/abshiek.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Abhishek Katakwar</h2>
+            <p>Director - Bariatric & Metabolic Surgery </p>
+        <p>Centre of Obesity, Bariatric and Metabolic Surgery</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="containered">
+    <div class="cardd">
+        <img src="images/rekha.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Rekha Paladugu</h2>
+            <p>Director - Hepatology 
+            <p>Sr. Consultant Nephrologist and Renal transplant physician - Nephrology,</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/rakesh.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Rakesh Kalapala</h2>
+            <p>Director Endoscopy (Center for Obesity and Metabolic Therapy) - Centre of Obesity, Medical</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/srinivas.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Srinivas Kishore Sistla</h2>
+            <p>Director & HOD, Department of Otolaryngology (ENT) - ENT</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <img src="images/maruti.jpg" alt="Doctor 1">
+        <div class="info">
+            <h2>Dr. Chitneni Maruthi</h2>
+            <p>Senior Pediatric Surgeon </p>
+        <p>Pediatric Minimal Invasive Surgeon - Pediatric Surgery</p>
+        </div>
+    </div>
+</div>
+
+  
+     
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
